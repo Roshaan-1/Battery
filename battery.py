@@ -16,7 +16,7 @@ while True:
         if percentage <= 30 and not plugged:
             notification.notify(
                 title="BATTERY LOW",
-                message=f"{percentage}% battery remaining! Please plug in the charger.",
+                message=f"{percentage}% battery remaining! Please plug  the charger.",
                 timeout=5)
     
         elif percentage == 100 and plugged == True:
